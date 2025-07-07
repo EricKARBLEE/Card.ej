@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Testimonials Section | CodingNepal</title>
+<style>
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;}
+
+html, body{
+display: grid;
+height: 100%;
+place-items: center;
+background: #17a2b8;}
+
+::selection{
+background: rgba(23,162,184,0.3);}
+
+.wrapper{
+max-width: 1200px;
+padding: 0 20px;
+display: flex;
+flex-wrap: wrap; 
+align-items: center;
+justify-content: space-between;}
+
+.wrapper .box{
+background: #fff;
+border-radius: 3px;
+padding: 25px;
+width: calc(33% - 10px);}
+
+.wrapper .box i.quote{
+font-size: 15px;
+color: #17a2b8;}
+
+.wrapper .box .content{
+padding-top: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.wrapper .box .info .name{
+font-size: 17px;
+font-weight: 600;}
+
+.wrapper .box .info .job{
+font-size: 16px;
+font-weight: 500;
+color: #17a2b8;}
+
+.wrapper .box .info .stars{
+margin-top: 2px;}
+
+.box .info .stars i{
+color: #17a2b8;}
+
+.wrapper .box .content .image{
+height: 75px;
+width: 75px;
+padding: 3px;
+background: #17a2b8;
+border-radius: 50%;}
+
+.box .content .image img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 50%;
+border: 2px solid #fff;}
+
+@media (max-width: 1045px){
+.wrapper .box{
+width: calc(33% - 10px);
+margin: 10px 0;
+}
+}
+
+
+@media (max-width: 702px){
+.wrapper .box{
+width: 100%;
+}
+}
+
+</style>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+<div class="box">
+<i class="fas fa-quote-left quote"><img src="./coat.png" height="8" width="8"></img></i>
+<p>E J Karblee company is the site of company where business are ready for promotion and suppily depends on the positive sale, however you are welcome to our site of business and promotion please keep clam and pationce here!</p>
+
+<div class="content">
+<div class="info">
+<div class="name">Alex Smith</div>
+<div class="job">Designer | Developer</div>
+<div class="stars">
+<i class="fas fa-star"><img src="./star1.png" height="10" width="10"></i>
+<i class="fas fa-star"><img src="./star1.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="./star2.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="./star2.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="./star2.png" height="10" width="10"></i>
+</div>
+</div>
+<div class="image">
+<img src="Eric.jpg" alt="">
+</div>
+</div>
+</div>
+
+
+<div class="box">
+<i class="fas fa-quote-left quote"><img src="coat.png" height="8" width="8"></img></i>
+<p>E J Karblee company is the site of company where business are ready for promotion and suppily depends on the positive sale, however you are welcome to our site of business and promotion please keep clam and pationce here!</p>
+
+<div class="content">
+<div class="info">
+<div class="name">Michael Karblee</div>
+<div class="job">Web | Developer</div>
+<div class="stars">
+<i class="fas fa-star"><img src="star1.png" height="10" width="10"></i>
+<i class="fas fa-star"><img src="star1.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="star1.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="star2.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="star2.png" height="10" width="10"></i>
+</div>
+</div>
+<div class="image">
+<img src="DuportRoadClub.png" alt="">
+</div>
+</div>
+</div>
+
+
+<div class="box">
+<i class="fas fa-quote-left quote"><img src="coat.png" height="8" width="8"></img></i>
+<p>E J Karblee company is the site of company where business are ready for promotion and suppily depends on the positive sale, however you are welcome to our site of business and promotion please keep clam and pationce here!</p>
+
+<div class="content">
+<div class="info">
+<div class="name">E J Karblee</div>
+<div class="job">Video | Producerer</div>
+<div class="stars">
+<i class="fas fa-star"><img src="star1.png" height="10" width="10"></i>
+<i class="fas fa-star"><img src="star1.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="star1.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="star1.png" height="10" width="10"></i>
+<i class="far fa-star"><img src="star2.png" height="10" width="10"></i>
+</div>
+</div>
+<div class="image">
+<img src="Vdukly.png" alt="">
+</div>
+</div>
+</div>
+
+</body>
+</html>
